@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:id="@id/aihelp_bottom_view_container" android:background="@android:color/transparent" android:paddingTop="6.0dp" android:paddingBottom="6.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/aihelp_ll_date" android:background="@android:color/transparent" android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_marginLeft="15.0dp" android:layout_weight="1.0" android:paddingStart="10.0dp" android:paddingEnd="10.0dp" android:layout_marginStart="15.0dp">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="16.0dp" android:layout_height="16.0dp" android:layout_marginRight="16.0dp" android:layout_marginEnd="16.0dp" app:srcCompat="@drawable/aihelp_svg_ic_calendar" />
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="#c7ccd1" android:id="@id/aihelp_tv_date" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatImageButton android:id="@id/aihelp_btn_send" android:background="@android:color/transparent" android:paddingLeft="15.0dp" android:paddingTop="10.0dp" android:paddingRight="20.0dp" android:paddingBottom="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:maxWidth="25.0dp" android:maxHeight="25.0dp" android:paddingStart="15.0dp" android:paddingEnd="20.0dp" app:srcCompat="@drawable/aihelp_svg_ic_send_msg" />
+</androidx.appcompat.widget.LinearLayoutCompat>

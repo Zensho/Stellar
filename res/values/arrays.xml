@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="zcore_xlurl">
+        <item>https://xhg-api.himefun.com/v1/</item>
+        <item>https://xhg-api.himefun.com/v2/</item>
+        <item>https://xhg-api.himefun.com/v3/</item>
+    </string-array>
+</resources>

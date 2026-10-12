@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/aihelp_rl_root" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/aihelp_iv_back" android:paddingTop="15.0dp" android:paddingBottom="15.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="20.0dp" android:paddingEnd="20.0dp" app:srcCompat="@drawable/aihelp_svg_ic_back" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/aihelp_iv_close" android:paddingTop="15.0dp" android:paddingBottom="15.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:paddingStart="20.0dp" android:paddingEnd="20.0dp" android:layout_alignParentEnd="true" app:srcCompat="@drawable/aihelp_svg_ic_close_dialog" />
+    <FrameLayout android:orientation="vertical" android:id="@id/aihelp_ll_root" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/aihelp_iv_close">
+        <ScrollView android:id="@id/aihelp_faq_content" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never">
+            <LinearLayout android:orientation="vertical" android:id="@id/aihelp_faq_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <net.aihelp.ui.webkit.AIHelpWebView android:id="@id/aihelp_web_view" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" />
+                <net.aihelp.ui.widget.AIHelpEvaluateButtonView android:id="@id/aihelp_evaluate_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dp" android:layout_marginTop="10.0dp" android:layout_marginRight="30.0dp" android:layout_marginBottom="10.0dp" android:layout_marginStart="30.0dp" android:layout_marginEnd="30.0dp" />
+            </LinearLayout>
+        </ScrollView>
+        <net.aihelp.ui.webkit.AIHelpWebProgress android:id="@id/aihelp_progress_bar" android:layout_width="match_parent" android:layout_height="2.0dp" />
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/xl_logined_rootlayout" android:background="@drawable/background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/xl_logined_bgcover_layout" android:background="@drawable/img_bg_cover" android:layout_width="240.0dp" android:layout_height="240.0dp">
+        <Button android:id="@id/x_delete" android:background="@drawable/btn_delete" android:layout_width="33.0dp" android:layout_height="33.0dp" android:layout_marginLeft="5.0dp" android:layout_marginTop="10.0dp" android:layout_below="@id/xl_logined_login_layout" android:layout_marginStart="5.0dp" />
+        <RelativeLayout android:layout_gravity="center|top" android:id="@id/xl_logined_login_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+            <Button android:id="@id/x_logout" android:background="@drawable/btn_logout" android:layout_width="33.0dp" android:layout_height="33.0dp" android:layout_marginRight="10.0dp" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_marginEnd="10.0dp" android:layout_alignParentEnd="true" />
+            <Button android:layout_gravity="center|top" android:id="@id/x_start_game" android:background="@drawable/img_start" android:layout_width="200.0dp" android:layout_height="33.0dp" android:layout_marginTop="10.0dp" android:layout_below="@id/x_logined_id" android:layout_centerHorizontal="true" />
+            <Button android:layout_gravity="center|top" android:id="@id/x_LinkBtn" android:background="@drawable/img_binding" android:layout_width="200.0dp" android:layout_height="33.0dp" android:layout_marginTop="10.0dp" android:layout_below="@id/x_start_game" android:layout_centerHorizontal="true" />
+            <ImageView android:layout_gravity="center" android:id="@id/x_logo_imageView" android:layout_width="150.0dp" android:layout_height="55.0dp" android:src="@drawable/logo_game_v2" android:scaleType="fitCenter" android:layout_centerHorizontal="true" />
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="18.0sp" android:textColor="@color/xlcolor_white" android:gravity="center" android:id="@id/x_logined_id" android:layout_width="wrap_content" android:layout_height="35.0dp" android:layout_marginTop="5.0dp" android:text="@string/x_logined_msg" android:layout_below="@id/x_logo_imageView" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

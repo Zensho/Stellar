@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/floatball_FrameLayout" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@id/floatball_RelativeLayout" android:layout_width="250.0dp" android:layout_height="250.0dp" android:layout_centerInParent="true">
+            <Button android:id="@id/x_floatball_circle" android:background="@drawable/bg_circle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dp" android:alpha="0.7" />
+            <Button android:id="@id/x_floatball_back" android:background="@drawable/icon_ball" android:layout_width="70.0dp" android:layout_height="70.0dp" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            <Button android:id="@id/x_floatball_lobi" android:background="@drawable/icon_lobi" android:layout_width="50.0dp" android:layout_height="50.0dp" android:layout_marginBottom="14.0dp" android:layout_alignLeft="@id/x_floatball_news" android:layout_alignBottom="@id/x_floatball_circle" />
+            <Button android:id="@id/x_floatball_news" android:background="@drawable/icon_news" android:layout_width="50.0dp" android:layout_height="50.0dp" android:layout_marginTop="14.0dp" android:layout_alignTop="@id/x_floatball_circle" android:layout_centerHorizontal="true" />
+            <Button android:id="@id/x_floatball_hide" android:background="@drawable/icon_hide" android:layout_width="50.0dp" android:layout_height="50.0dp" android:layout_marginRight="10.0dp" android:layout_toLeftOf="@id/x_floatball_back" android:layout_below="@id/x_floatball_news" />
+            <Button android:id="@id/x_floatball_cs" android:background="@drawable/icon_service" android:layout_width="50.0dp" android:layout_height="50.0dp" android:layout_marginLeft="3.0dp" android:layout_marginTop="20.0dp" android:layout_below="@id/x_floatball_hide" android:layout_alignLeft="@id/x_floatball_hide" />
+            <Button android:id="@id/x_floatball_prize" android:background="@drawable/icon_award" android:layout_width="50.0dp" android:layout_height="50.0dp" android:layout_marginLeft="12.0dp" android:layout_toRightOf="@id/x_floatball_back" android:layout_above="@id/x_floatball_cs" />
+            <Button android:id="@id/x_floatball_fb" android:background="@drawable/icon_fb" android:layout_width="50.0dp" android:layout_height="50.0dp" android:layout_alignLeft="@id/x_floatball_prize" android:layout_alignBottom="@id/x_floatball_cs" />
+            <Button android:id="@id/x_floatball_pay" android:background="@drawable/icon_pay" android:layout_width="50.0dp" android:layout_height="50.0dp" android:layout_marginBottom="14.0dp" android:layout_alignLeft="@id/x_floatball_news" android:layout_alignBottom="@id/x_floatball_circle" />
+            <Button android:id="@id/x_floatball_twitter" android:background="@drawable/icon_twitter" android:layout_width="50.0dp" android:layout_height="50.0dp" android:layout_alignLeft="@id/x_floatball_prize" android:layout_alignBottom="@id/x_floatball_cs" />
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

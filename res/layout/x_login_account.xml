@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/xl_login_rootlayout" android:background="@drawable/background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/img_bg_cover" android:layout_width="240.0dp" android:layout_height="220.0dp">
+        <RelativeLayout android:layout_gravity="center|top" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+            <ImageButton android:layout_gravity="center" android:id="@id/x_back" android:background="@drawable/img_back" android:layout_width="35.0dp" android:layout_height="35.0dp" android:layout_marginLeft="15.0dp" android:scaleType="centerCrop" android:layout_marginStart="10.0dp" />
+            <ImageView android:id="@id/x_logo_imageView" android:layout_width="150.0dp" android:layout_height="50.0dp" android:src="@drawable/logo_game_v2" android:scaleType="fitCenter" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <LinearLayout android:layout_gravity="center|top" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+            <ImageView android:id="@id/x_username_head" android:layout_width="45.0dp" android:layout_height="35.0dp" android:src="@drawable/ipt_id_head" android:scaleType="fitXY" />
+            <EditText android:textSize="12.0sp" android:id="@id/x_username" android:background="@drawable/ipt_pass_body" android:paddingLeft="5.0dp" android:paddingRight="0.0dp" android:layout_width="155.0dp" android:layout_height="35.0dp" android:hint="@string/x_username" android:ems="10" android:width="200.0dp" android:inputType="textVisiblePassword" android:paddingStart="5.0dp" android:paddingEnd="0.0dp" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center|top" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+            <ImageView android:id="@id/x_password_head" android:layout_width="45.0dp" android:layout_height="35.0dp" android:src="@drawable/ipt_pass_head" android:scaleType="fitXY" />
+            <EditText android:textSize="12.0sp" android:id="@id/x_password" android:background="@drawable/ipt_pass_body" android:paddingLeft="5.0dp" android:paddingRight="0.0dp" android:layout_width="155.0dp" android:layout_height="35.0dp" android:hint="@string/x_password" android:ems="10" android:width="200.0dp" android:inputType="textPassword" android:fontFamily="sans-serif" android:paddingStart="5.0dp" android:paddingEnd="0.0dp" />
+        </LinearLayout>
+        <Button android:textSize="20.0sp" android:layout_gravity="center|top" android:id="@id/x_LoginBtn" android:background="@drawable/img_login" android:layout_width="200.0dp" android:layout_height="33.0dp" android:layout_marginTop="10.0dp" />
+    </LinearLayout>
+</LinearLayout>

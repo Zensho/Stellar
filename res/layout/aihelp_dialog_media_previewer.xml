@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <VideoView android:layout_gravity="center" android:id="@id/aihelp_video_view" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <net.aihelp.core.util.previewer.PhotoView android:layout_gravity="center" android:id="@id/aihelp_image_view" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:adjustViewBounds="true" android:layout_centerInParent="true" />
+        <RelativeLayout android:gravity="center" android:id="@id/aihelp_rl_file_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/aihelp_iv_empty" android:layout_width="80.0dp" android:layout_height="80.0dp" android:layout_centerHorizontal="true" app:srcCompat="@drawable/aihelp_svg_ic_empty" />
+            <TextView android:textSize="14.0sp" android:textColor="#c0c0c0" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/aihelp_tv_file_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:layout_below="@id/aihelp_iv_empty" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <ProgressBar android:layout_gravity="center" android:id="@id/aihelp_progress_bar" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/aihelp_rl_preview_title" android:background="@android:color/transparent" android:visibility="visible" android:layout_width="match_parent" android:layout_height="44.0dp">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/aihelp_iv_back" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="48.0dp" android:layout_height="48.0dp" android:scaleType="fitCenter" android:contentDescription="Back" android:paddingStart="12.0dp" android:paddingEnd="12.0dp" app:srcCompat="@drawable/aihelp_svg_ic_back" />
+        <net.aihelp.ui.widget.AIHelpButton android:id="@id/aihelp_btn_confirm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="10.0dp" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <net.aihelp.ui.widget.AIHelpButton android:id="@id/aihelp_tv_save" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dp" android:layout_marginBottom="15.0dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

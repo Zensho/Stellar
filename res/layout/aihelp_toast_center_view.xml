@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="17.0sp" android:textColor="#ffffff" android:id="@id/aihelp_toast_txt" android:background="@drawable/aihelp_bg_toast_view" android:paddingLeft="10.0dp" android:paddingTop="23.0dp" android:paddingRight="10.0dp" android:paddingBottom="23.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="15.0dp" android:layout_marginEnd="15.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

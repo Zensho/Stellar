@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/aihelp_customer_service_root" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <net.aihelp.ui.widget.AIHelpSwipeRefreshLayout android:id="@id/aihelp_refresh_layout" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="0.0dp" android:layout_above="@id/aihelp_chat_bottom_layout">
+        <net.aihelp.ui.widget.AIHelpChatRecyclerView android:id="@id/aihelp_rv_msg_list" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never" />
+    </net.aihelp.ui.widget.AIHelpSwipeRefreshLayout>
+    <net.aihelp.ui.cs.middle.MiddleHandlerView android:id="@id/aihelp_middle_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@id/aihelp_chat_bottom_layout" android:layout_alignLeft="@id/aihelp_chat_bottom_layout" android:layout_alignStart="@id/aihelp_chat_bottom_layout" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/aihelp_chat_bottom_layout" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <FrameLayout android:gravity="center_vertical" android:id="@id/aihelp_bottom_container" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="9.0sp" android:textColor="#abb0bc" android:gravity="center" android:id="@id/aihelp_logo" android:background="@android:color/transparent" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Powered by AIHELP.NET" />
+    </LinearLayout>
+</RelativeLayout>

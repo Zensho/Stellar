@@ -1,0 +1,26 @@
+.class public Lcom/google/firebase/perf/plugin/instrumentation/network/hook/HttpClientExecuteRequestInstrumentation;
+.super Lcom/google/firebase/perf/plugin/instrumentation/network/hook/HttpClientExecuteBaseInstrumentation;
+.source "HttpClientExecuteRequestInstrumentation.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/firebase/perf/plugin/instrumentation/network/hook/HttpClientExecuteRequestInstrumentation$Factory;
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    .line 14
+    const-string v0, "execute"
+
+    const-string v1, "(Lorg/apache/http/client/HttpClient;Lorg/apache/http/client/methods/HttpUriRequest;)Lorg/apache/http/HttpResponse;"
+
+    invoke-direct {p0, v0, v1}, Lcom/google/firebase/perf/plugin/instrumentation/network/hook/HttpClientExecuteBaseInstrumentation;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
+.end method

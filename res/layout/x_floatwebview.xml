@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/floatwebview_framelayout" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/floatwebview_relativelayout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <WebView android:id="@id/x_fw_webview" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/x_fw_titleframe" />
+        <Button android:id="@id/x_fw_titleframe" android:background="#008080" android:layout_width="wrap_content" android:layout_height="38.0dp" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" />
+        <Button android:id="@id/x_fw_prev" android:background="@drawable/firstview_returnbtn" android:layout_width="40.0dp" android:layout_height="wrap_content" android:layout_alignBottom="@id/x_fw_titleframe" />
+        <Button android:id="@id/x_fw_close" android:background="@drawable/firstview_closebtn" android:layout_width="40.0dp" android:layout_height="wrap_content" android:layout_alignBottom="@id/x_fw_titleframe" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <TextView android:gravity="center" android:id="@id/x_fw_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/x_fw_close" android:layout_toRightOf="@id/x_fw_prev" android:layout_alignBottom="@id/x_fw_titleframe" android:layout_alignParentTop="true" />
+        <ProgressBar android:id="@id/x_fw_spin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</FrameLayout>

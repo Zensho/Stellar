@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <WebView android:id="@id/xl_fv_webview" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <RelativeLayout android:gravity="bottom" android:id="@id/xl_fv_relative_layout" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:id="@id/xl_fv_bg" android:background="@drawable/blackbg" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignTop="@id/xl_fv_closebtn" android:layout_alignBottom="@id/xl_fv_closebtn" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:alpha="0.4" />
+        <Button android:id="@id/xl_fv_closebtn" android:background="@drawable/firstview_closebtn" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_alignParentRight="true" />
+        <CheckedTextView android:textSize="20.0sp" android:textColor="#ffffff" android:gravity="center_vertical" android:id="@id/xl_fv_checkedtextview" android:paddingLeft="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:text="@string/x_firstview_checked_textid" android:drawableLeft="?android:listChoiceIndicatorMultiple" android:drawablePadding="10.0dp" android:layout_alignTop="@id/xl_fv_closebtn" android:layout_alignBottom="@id/xl_fv_closebtn" android:layout_alignParentLeft="true" />
+        <Button android:textColor="#ffa500" android:id="@id/xl_fv_returnbtn" android:background="@drawable/firstview_returnbtn" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginRight="10.0dp" android:layout_toLeftOf="@id/xl_fv_closebtn" android:layout_alignTop="@id/xl_fv_closebtn" android:layout_alignBottom="@id/xl_fv_closebtn" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="top" android:id="@id/xl_fv_relative_layout2" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:id="@id/xl_fv_bg2" android:background="@drawable/blackbg" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignTop="@id/xl_fv_closebtn2" android:layout_alignBottom="@id/xl_fv_closebtn2" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:alpha="0.4" />
+        <Button android:textColor="#ffa500" android:id="@id/xl_fv_closebtn2" android:background="@drawable/firstview_closebtn" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_alignParentRight="true" />
+        <Button android:textColor="#ffa500" android:id="@id/xl_fv_returnbtn2" android:background="@drawable/firstview_returnbtn" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_alignTop="@id/xl_fv_closebtn2" android:layout_alignBottom="@id/xl_fv_closebtn2" android:layout_alignParentLeft="true" />
+        <TextView android:textColor="#ffffff" android:gravity="center" android:id="@id/xl_fv_textview2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_toLeftOf="@id/xl_fv_closebtn2" android:layout_toRightOf="@id/xl_fv_returnbtn2" android:layout_alignTop="@id/xl_fv_closebtn2" android:layout_alignBottom="@id/xl_fv_closebtn2" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,3 @@
+io.grpc.netty.NettyChannelProvider
+io.grpc.netty.UdsNettyChannelProvider
+io.grpc.okhttp.OkHttpChannelProvider

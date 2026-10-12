@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/xl_la_rootview" android:background="@drawable/background" android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/img_bg_cover" android:layout_width="240.0dp" android:layout_height="250.0dp">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+            <TextView android:textSize="20.0sp" android:textColor="@color/xlcolor_white" android:gravity="center_vertical" android:id="@id/x_link_id" android:layout_width="189.0dp" android:layout_height="35.0dp" android:layout_marginLeft="5.0dp" android:layout_marginRight="5.0dp" android:text="@string/x_hello_msg" android:layout_toRightOf="@id/x_back" android:layout_alignBottom="@id/x_back" android:layout_alignParentRight="true" android:layout_marginStart="5.0dp" android:layout_toEndOf="@id/x_back" android:layout_alignParentEnd="true" />
+            <ImageButton android:layout_gravity="start" android:id="@id/x_back" android:background="@drawable/img_back" android:layout_width="35.0dp" android:layout_height="35.0dp" android:layout_marginLeft="15.0dp" android:scaleType="centerCrop" android:layout_marginStart="10.0dp" />
+        </RelativeLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/xlfastinlinklayout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dp">
+                <ImageView android:id="@id/x_username_head" android:layout_width="45.0dp" android:layout_height="35.0dp" android:src="@drawable/ipt_id_head" android:scaleType="fitXY" />
+                <EditText android:textSize="12.0sp" android:gravity="center_vertical" android:layout_gravity="center|top" android:id="@id/x_username" android:background="@drawable/ipt_pass_body" android:paddingLeft="5.0dp" android:paddingRight="0.0dp" android:layout_width="158.0dp" android:layout_height="35.0dp" android:hint="@string/x_account_hint" android:ems="10" android:width="200.0dp" android:maxLength="20" android:inputType="textEmailAddress" android:paddingStart="5.0dp" android:paddingEnd="0.0dp" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+                <ImageView android:id="@id/x_password_head" android:layout_width="45.0dp" android:layout_height="35.0dp" android:src="@drawable/ipt_pass_head" android:scaleType="fitXY" />
+                <EditText android:textSize="12.0sp" android:gravity="center_vertical" android:layout_gravity="center|top" android:id="@id/x_password" android:background="@drawable/ipt_pass_body" android:paddingLeft="5.0dp" android:paddingRight="0.0dp" android:layout_width="158.0dp" android:layout_height="35.0dp" android:hint="@string/x_password_hint" android:ems="10" android:width="200.0dp" android:inputType="textPassword" android:fontFamily="sans-serif" android:paddingStart="5.0dp" android:paddingEnd="0.0dp" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center|top" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/x_password_confirm_head" android:layout_width="45.0dp" android:layout_height="35.0dp" android:layout_marginTop="10.0dp" android:src="@drawable/ipt_pass_head" android:scaleType="centerCrop" />
+                <EditText android:textSize="12.0sp" android:gravity="center_vertical" android:id="@id/x_password_confirm" android:background="@drawable/ipt_pass_body" android:paddingLeft="5.0dp" android:paddingRight="0.0dp" android:layout_width="158.0dp" android:layout_height="35.0dp" android:layout_marginTop="10.0dp" android:hint="@string/x_password_confirm_hint" android:ems="10" android:width="200.0dp" android:maxLength="20" android:inputType="textPassword" android:fontFamily="sans-serif" android:paddingStart="5.0dp" android:paddingEnd="0.0dp" />
+            </LinearLayout>
+            <Button android:layout_gravity="center_horizontal" android:id="@id/x_LinkBtn" android:background="@drawable/img_register" android:layout_width="200.0dp" android:layout_height="33.0dp" android:layout_marginTop="10.0dp" />
+        </LinearLayout>
+        <ScrollView android:layout_gravity="center" android:orientation="vertical" android:id="@id/x_center_scroll" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginBottom="10.0dp">
+            <LinearLayout android:orientation="vertical" android:id="@id/xlsociallinklayout" android:layout_width="200.0dp" android:layout_height="match_parent">
+                <Button android:layout_gravity="top" android:id="@id/xlcreate" android:background="@drawable/img_register_xl" android:layout_width="match_parent" android:layout_height="35.0dp" android:layout_marginTop="8.0dp" />
+                <Button android:id="@id/xlink" android:background="@drawable/img_register_xl" android:visibility="gone" android:layout_width="match_parent" android:layout_height="35.0dp" android:layout_marginTop="10.0dp" style="android:buttonStyle" />
+                <Button android:id="@id/xlgplink" android:background="@drawable/img_login_gp" android:layout_width="match_parent" android:layout_height="35.0dp" android:layout_marginTop="10.0dp" style="android:buttonStyle" />
+                <Button android:id="@id/xlfblink" android:background="@drawable/img_login_fb" android:layout_width="match_parent" android:layout_height="35.0dp" android:layout_marginTop="10.0dp" />
+                <Button android:id="@id/xltwitterlink" android:background="@drawable/img_login_tw" android:layout_width="match_parent" android:layout_height="35.0dp" android:layout_marginTop="10.0dp" style="android:buttonStyle" />
+                <Button android:id="@id/xllinelink" android:background="@drawable/img_login_line" android:layout_width="match_parent" android:layout_height="35.0dp" android:layout_marginTop="10.0dp" style="android:buttonStyle" />
+                <Button android:id="@id/xlapplelink" android:background="@drawable/img_login_apple" android:layout_width="match_parent" android:layout_height="35.0dp" android:layout_marginTop="10.0dp" style="android:buttonStyle" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <net.aihelp.ui.cs.middle.intent.SmartIntentView android:id="@id/aihelp_smart_intent" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+    <net.aihelp.ui.widget.AIHelpButton android:id="@id/aihelp_tv_previous" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:layout_marginTop="7.0dp" android:layout_marginBottom="7.0dp" android:layout_alignParentLeft="true" android:layout_marginStart="10.0dp" android:layout_alignParentStart="true" />
+    <net.aihelp.ui.widget.AIHelpButton android:gravity="center" android:id="@id/aihelp_tv_skip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dp" android:layout_marginRight="10.0dp" android:layout_marginBottom="7.0dp" android:layout_alignParentRight="true" android:layout_marginEnd="10.0dp" android:layout_alignParentEnd="true" />
+</merge>

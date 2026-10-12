@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/aihelp_rl_evaluate_faq" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <net.aihelp.ui.widget.AIHelpButton android:id="@id/aihelp_btn_un_helpful" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dp" android:layout_alignParentLeft="true" android:layout_marginEnd="10.0dp" android:layout_alignParentStart="true" />
+    <net.aihelp.ui.widget.AIHelpButton android:id="@id/aihelp_btn_helpful" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:layout_alignParentRight="true" android:layout_marginStart="10.0dp" android:layout_alignParentEnd="true" />
+    <net.aihelp.ui.widget.AIHelpTextView android:textSize="14.0sp" android:ellipsize="end" android:id="@id/aihelp_tv_thanks" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dp" android:maxLines="2" android:layout_centerInParent="true" android:alpha="0.5" />
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/floatball_RelativeLayout" android:background="@drawable/floatball_rectbackground" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:id="@id/x_floatball_back" android:background="@drawable/icon_ball" android:layout_width="50.0dp" android:layout_height="50.0dp" />
+            <Button android:id="@id/x_floatball_hide" android:background="@drawable/icon_hide" android:layout_width="50.0dp" android:layout_height="50.0dp" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dp">
+            <Button android:id="@id/x_floatball_prize" android:background="@drawable/icon_award" android:layout_width="50.0dp" android:layout_height="50.0dp" />
+            <Button android:id="@id/x_floatball_news" android:background="@drawable/icon_news" android:layout_width="50.0dp" android:layout_height="50.0dp" />
+            <Button android:id="@id/x_floatball_lobi" android:background="@drawable/icon_lobi" android:layout_width="50.0dp" android:layout_height="50.0dp" />
+            <Button android:id="@id/x_floatball_cs" android:background="@drawable/icon_service" android:layout_width="53.0dp" android:layout_height="50.0dp" />
+            <Button android:id="@id/x_floatball_fb" android:background="@drawable/icon_fb" android:layout_width="50.0dp" android:layout_height="50.0dp" />
+            <Button android:id="@id/x_floatball_twitter" android:background="@drawable/icon_twitter" android:layout_width="50.0dp" android:layout_height="50.0dp" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dp">
+            <Button android:id="@id/x_floatball_pay" android:background="@drawable/icon_pay" android:layout_width="50.0dp" android:layout_height="50.0dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
