@@ -1,0 +1,60 @@
+  470 2026/09/01 16:22:37 LuaException: c# exception:System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+  at System.Collections.Generic.List`1[T].get_Item (System.Int32 index) [0x00000] in <00000000000000000000000000000000>:0 
+  at AudioMgr.BackStaticBGM () [0x00000] in <00000000000000000000000000000000>:0 
+  at XLua.CSObjectWrap.AudioMgrWrap._m_BackStaticBGM_xlua_st_ (System.IntPtr L) [0x00000] in <00000000000000000000000000000000>:0 
+stack traceback:
+	[C]: in field 'BackStaticBGM'
+	/Users/booker/Desktop/H2_Android/Client/Assets/Luas/manager/audio_manager.lua:248: in function 'manager/audio_manager.CheckUIBGMClose'
+	/Users/booker/Desktop/H2_Android/Client/Assets/Luas/manager/audio_manager.lua:203: in function 'manager/audio_manager.CheckCloseHide'
+	/Users/booker/Desktop/H2_Android/Client/Assets/Luas/manager/facade.lua:468: in function 'FacadeSendCommand'
+	/Users/booker/Desktop/H2_Android/Client/Assets/Luas/ui/base_ui.lua:40: in function 'ui/ui_okdlg.Destroy'
+	/Users/booker/Desktop/H2_Android/Client/Assets/Luas/ui/ui_login.lua:97: in function 'ui/ui_login.Destroy'
+	/Users/booker/Desktop/H2_Android/Client/Assets/Luas/manager/uimanager.lua:222: in function 'UICloseAll'
+XLua.LuaEnv.ThrowExceptionFromError (System.Int32 oldTop) (at <00000000000000000000000000000000>:0)
+XLua.DelegateBridge.__Gen_Delegate_Imp0 () (at <00000000000000000000000000000000>:0)
+XLib.CUiManager.ReleaseLua () (at <00000000000000000000000000000000>:0)
+CAppFacade.Release () (at <00000000000000000000000000000000>:0)
+[Exception] 
+ 5045 2026/09/02 00:26:06 LuaException: /Users/booker/Desktop/H2_Android/Client/Assets/Luas/ui/ui_guildscene.lua:408: attempt to index a nil value (field 'kMyCharacter')
+stack traceback:
+	/Users/booker/Desktop/H2_Android/Client/Assets/Luas/ui/ui_guildscene.lua:408: in function 'ui/ui_guildscene.OnUp'
+	/Users/booker/Desktop/H2_Android/Client/Assets/Luas/common/ui_tools.lua:113: in function </Users/booker/Desktop/H2_Android/Client/Assets/Luas/common/ui_tools.lua:112>
+XLua.LuaEnv.ThrowExceptionFromError (System.Int32 oldTop) (at <00000000000000000000000000000000>:0)
+XLua.DelegateBridge.Action[T1,T2,T3] (T1 p1, T2 p2, T3 p3) (at <00000000000000000000000000000000>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at <00000000000000000000000000000000>:0)
+UnityEngine.EventSystems.StandaloneInputModule.ProcessTouchPress (UnityEngine.EventSystems.PointerEventData pointerEvent, System.Boolean pressed, System.Boolean released) (at <00000000000000000000000000000000>:0)
+UnityEngine.EventSystems.StandaloneInputModule.ProcessTouchEvents () (at <00000000000000000000000000000000>:0)
+UnityEngine.EventSystems.StandaloneInputModule.Process () (at <00000000000000000000000000000000>:0)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+[Exception] 
+  555 2026/09/12 08:22:28 LuaException: /Users/booker/Desktop/H2_Android/Client/Assets/Luas/ui/ui_guildscene.lua:408: attempt to index a nil value (field 'kMyCharacter')
+stack traceback:
+	/Users/booker/Desktop/H2_Android/Client/Assets/Luas/ui/ui_guildscene.lua:408: in function 'ui/ui_guildscene.OnUp'
+	/Users/booker/Desktop/H2_Android/Client/Assets/Luas/common/ui_tools.lua:113: in function </Users/booker/Desktop/H2_Android/Client/Assets/Luas/common/ui_tools.lua:112>
+XLua.LuaEnv.ThrowExceptionFromError (System.Int32 oldTop) (at <00000000000000000000000000000000>:0)
+XLua.DelegateBridge.Action[T1,T2,T3] (T1 p1, T2 p2, T3 p3) (at <00000000000000000000000000000000>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at <00000000000000000000000000000000>:0)
+UnityEngine.EventSystems.StandaloneInputModule.ProcessTouchPress (UnityEngine.EventSystems.PointerEventData pointerEvent, System.Boolean pressed, System.Boolean released) (at <00000000000000000000000000000000>:0)
+UnityEngine.EventSystems.StandaloneInputModule.ProcessTouchEvents () (at <00000000000000000000000000000000>:0)
+UnityEngine.EventSystems.StandaloneInputModule.Process () (at <00000000000000000000000000000000>:0)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+[Exception] 
+  418 2026/09/16 06:26:44 LuaException: c# exception:System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+  at System.Collections.Generic.List`1[T].get_Item (System.Int32 index) [0x00000] in <00000000000000000000000000000000>:0 
+  at AudioMgr.BackStaticBGM () [0x00000] in <00000000000000000000000000000000>:0 
+  at XLua.CSObjectWrap.AudioMgrWrap._m_BackStaticBGM_xlua_st_ (System.IntPtr L) [0x00000] in <00000000000000000000000000000000>:0 
+stack traceback:
+	[C]: in field 'BackStaticBGM'
+	/Users/booker/Desktop/H2_Android/Client/Assets/Luas/manager/audio_manager.lua:248: in function 'manager/audio_manager.CheckUIBGMClose'
+	/Users/booker/Desktop/H2_Android/Client/Assets/Luas/manager/audio_manager.lua:203: in function 'manager/audio_manager.CheckCloseHide'
+	/Users/booker/Desktop/H2_Android/Client/Assets/Luas/manager/facade.lua:471: in function 'FacadeSendCommand'
+	/Users/booker/Desktop/H2_Android/Client/Assets/Luas/ui/base_ui.lua:40: in function 'ui/base_ui.Destroy'
+	/Users/booker/Desktop/H2_Android/Client/Assets/Luas/ui/ui_login.lua:97: in function 'ui/ui_login.Destroy'
+	/Users/booker/Desktop/H2_Android/Client/Assets/Luas/manager/uimanager.lua:222: in function 'UICloseAll'
+XLua.LuaEnv.ThrowExceptionFromError (System.Int32 oldTop) (at <00000000000000000000000000000000>:0)
+XLua.DelegateBridge.__Gen_Delegate_Imp0 () (at <00000000000000000000000000000000>:0)
+XLib.CUiManager.ReleaseLua () (at <00000000000000000000000000000000>:0)
+CAppFacade.Release () (at <00000000000000000000000000000000>:0)
+[Exception] 
